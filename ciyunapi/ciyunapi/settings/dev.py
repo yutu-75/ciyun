@@ -31,7 +31,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CORS_ORIGIN_WHITELIST = (
+    #'www.luffycity.cn:8080', #如果这样写不行的话，就加上协议(http://www.luffycity.cn:8080，因为不同的corsheaders版本可能有不同的要求)
+    'http://0.0.0.0:8001',
+'http://127.0.0.1:8001',
 
+)
 # Application definition
 
 INSTALLED_APPS = [
@@ -41,14 +46,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'corsheaders',
+    'xadmin',
     'rest_framework',
+    'crispy_forms',
     # 'djcelery'
     # 'home.apps.HomeConfig',
     'home',
 ]
-
+CORS_ALLOW_CREDENTIALS = False
 MIDDLEWARE = [
+
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -98,6 +107,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ciyunapi.wsgi.application'
 
 
+# 修改使用中文界面
+LANGUAGE_CODE = 'zh-Hans'
+
+# 修改时区
+TIME_ZONE = 'Asia/Shanghai'
+# LANGUAGE_CODE = 'en-us'
+
+# TIME_ZONE = 'UTC'
+
+USE_I18N = True
+
+USE_L10N = True
+
+USE_TZ = True
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -146,9 +170,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+# LANGUAGE_CODE = 'en-us'
+#
+# TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -237,3 +261,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT=os.path.join(BASE_DIR, "uploads")
 # 访问上传文件的url地址前缀
 MEDIA_URL ="/media/"
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')

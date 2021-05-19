@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include,re_path
 from . import views
-from jsonrpc import jsonrpc_site
+
 # import views
 
 urlpatterns = [
@@ -24,7 +24,15 @@ urlpatterns = [
     # path('', include('home.urls')),
     path('ciyun/', views.CiyunView.as_view(), name='ciyun'),
     path('update/', views.UpdateView.as_view(), name='update'),
+    path('upload/', views.UploadView.as_view(), name='upload'),
+    path('template/', views.TemplateView.as_view(), name='template'),
     re_path('download/(?P<p_name>.*?)/', views.file_down, name="download"),
+
+
+
+    path(r'home/banner/', views.BannerView.as_view()),
+    path(r'home/nav/', views.NavView.as_view()),
+    path(r'home/bottom/', views.BottomView.as_view())
     # path('modify/', views.modify),
     # path('async/', views.ay),
     # path('asyncio/', views.http_call_async),
