@@ -15870,3 +15870,4 @@ INFO 2021-05-19 16:27:46,101 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
 INFO 2021-05-19 16:27:46,102 basehttp 157 "GET /api/home/banner/ HTTP/1.1" 200 284
 INFO 2021-05-19 16:27:48,028 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
 INFO 2021-05-19 16:27:48,032 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-20 18:03:32,946 autoreload 617 Watching for file changes with StatReloader
