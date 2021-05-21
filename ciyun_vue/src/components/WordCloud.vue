@@ -350,7 +350,7 @@
                         :on-success="handleAvatarSuccess"
                         :on-exceed="handleExceed"
                         :on-remove="removeImg"
-                        action="http://127.0.0.1:8000/api/upload/"
+                        action="http://119.3.204.138:8000/api/upload/"
                         multiple
                       >
                         <i class="el-icon-upload"></i>
@@ -369,7 +369,7 @@
                         <div class="picture_suo_t" style="display: block;height: 330px;">
                           <div class="picture_suo_img" :class="{'suo-img': sty==index}" @click="onImg(index,value)"
                                v-for="(value,index) in img_list" :key="index">
-                            <img class="lazy" :src="'http://127.0.0.1:8000/statics/img_template/'+value">
+                            <img class="lazy" :src="'http://119.3.204.138:8000/statics/img_template/'+value">
 
                           </div>
 
@@ -536,7 +536,7 @@ export default {
       user_img_name: '',
 
       // 默认加载图片
-      img_url: 'http://127.0.0.1:8000/statics/img_ciyun/3C5961A4B6C011EB80695F79F28AFEE0.png',
+      img_url: `${this.$settings.Host}`+'/statics/img_ciyun/3C5961A4B6C011EB80695F79F28AFEE0.png',
 
       // 模板图片的索引
       sty: 'None',
@@ -898,7 +898,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 
 .qwq p {
@@ -912,22 +912,7 @@ export default {
   border-bottom-color: transparent;
 }
 
-.el-color-picker__trigger {
-  -webkit-box-sizing: border-box;
-  height: 28px;
-  width: 64px;
-  padding: 4px;
-  border-radius: 4px;
-  font-size: 0;
-  position: relative;
-  cursor: pointer;
-  vertical-align: middle;
-  border: none;
-}
 
-.el-color-picker__icon {
-  display: none;
-}
 
 .block {
   display: inline;
