@@ -7,7 +7,7 @@
           <el-row>
             <el-col class="logo" :span="3">
               <a href="/">
-                <!--                <img src="@/assets/login.png" style="width: 150px" alt="">-->
+                                <img src="@/assets/lixinlogo.png" style="width: 100px;height: 100px" alt="">
 
               </a>
             </el-col>

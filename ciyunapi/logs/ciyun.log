@@ -15920,3 +15920,322 @@ INFO 2021-05-21 10:22:31,006 basehttp 157 "GET /statics/img_template/6.png HTTP/
 INFO 2021-05-21 10:22:31,006 basehttp 157 "GET /statics/img_template/9.png HTTP/1.1" 200 34792
 INFO 2021-05-21 10:22:31,007 basehttp 157 "GET /statics/img_template/7.png HTTP/1.1" 200 34314
 INFO 2021-05-21 10:22:31,008 basehttp 157 "GET /statics/img_template/10.png HTTP/1.1" 200 35829
+INFO 2021-05-21 16:21:26,162 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-05-21 16:23:07,860 log 224 Not Found: /favicon.ico
+WARNING 2021-05-21 16:23:07,860 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2021-05-21 17:05:00,061 basehttp 157 "GET /api/ciyun/ HTTP/1.1" 200 11
+INFO 2021-05-23 17:10:55,806 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 17:10:57,147 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 17:11:00,137 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 17:12:21,736 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 17:12:22,431 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-05-23 17:25:27,079 log 224 Not Found: /
+WARNING 2021-05-23 17:25:27,080 basehttp 157 "GET / HTTP/1.1" 404 2258
+WARNING 2021-05-23 17:25:27,163 log 224 Not Found: /favicon.ico
+WARNING 2021-05-23 17:25:27,163 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2021-05-23 17:56:26,988 basehttp 157 "GET /api/ciyun/ HTTP/1.1" 200 11
+INFO 2021-05-23 18:27:21,436 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 18:27:22,287 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:28:54,970 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 18:28:55,652 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:29:09,441 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 18:29:10,332 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:54:32,308 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 18:54:33,200 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:55:23,363 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 18:55:24,038 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:55:52,581 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 18:57:05,031 basehttp 157 "OPTIONS /api/template/ HTTP/1.1" 200 0
+INFO 2021-05-23 18:57:05,037 basehttp 157 "GET /statics/img_ciyun/3C5961A4B6C011EB80695F79F28AFEE0.png HTTP/1.1" 304 0
+INFO 2021-05-23 18:57:05,044 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 18:57:05,073 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 18:57:43,089 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 18:57:43,097 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 18:57:44,743 basehttp 157 "OPTIONS /api/ciyun/ HTTP/1.1" 200 0
+INFO 2021-05-23 18:57:46,496 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 17
+INFO 2021-05-23 18:57:53,244 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 18:57:53,262 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 18:57:55,947 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 17
+INFO 2021-05-23 18:58:21,784 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 17
+INFO 2021-05-23 18:59:37,230 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 18:59:37,247 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 18:59:39,431 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 17
+INFO 2021-05-23 19:00:18,945 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:00:20,062 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 19:00:21,246 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:00:21,251 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:00:25,087 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:00:26,438 basehttp 157 "GET /statics/img_ciyun/12C45682BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 109307
+INFO 2021-05-23 19:00:29,293 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:00:30,621 basehttp 157 "GET /statics/img_ciyun/154F02C6BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 109244
+INFO 2021-05-23 19:00:39,313 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:00:39,324 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:00:50,377 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:00:50,384 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:00:54,344 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:00:55,949 basehttp 157 "GET /statics/img_ciyun/243BAA46BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 112268
+INFO 2021-05-23 19:00:59,145 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:01:00,333 basehttp 157 "GET /statics/img_ciyun/272101E8BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 110849
+INFO 2021-05-23 19:01:03,390 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:01:04,319 basehttp 157 "GET /statics/img_ciyun/299CD848BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 111627
+INFO 2021-05-23 19:01:18,391 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:01:19,713 basehttp 157 "GET /statics/img_ciyun/3293B318BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 110223
+INFO 2021-05-23 19:01:29,459 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:01:30,534 basehttp 157 "GET /statics/img_ciyun/39426952BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 160953
+INFO 2021-05-23 19:03:14,432 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:03:14,449 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:03:31,121 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:03:32,384 basehttp 157 "GET /statics/img_ciyun/81C86D0CBBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 169141
+INFO 2021-05-23 19:04:15,459 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:04:15,463 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:05:10,398 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:05:10,403 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:05:33,415 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:05:34,658 basehttp 157 "GET /statics/img_ciyun/CAA9F02CBBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 167053
+INFO 2021-05-23 19:05:41,187 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:05:42,551 basehttp 157 "GET /statics/img_ciyun/CF4D8D82BBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 167047
+INFO 2021-05-23 19:06:13,416 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:06:14,631 basehttp 157 "GET /statics/img_ciyun/E282110CBBB611EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 168148
+INFO 2021-05-23 19:06:16,785 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:06:16,803 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:06:32,088 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 17
+INFO 2021-05-23 19:08:37,185 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:08:37,201 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:08:53,942 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:08:53,956 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:08:59,706 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:08:59,711 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:09:17,201 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:09:17,207 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:09:22,502 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:09:22,515 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:09:35,787 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:09:36,989 basehttp 157 "GET /statics/img_ciyun/5B2346DABBB711EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 166319
+INFO 2021-05-23 19:10:23,417 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:10:23,431 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:10:27,394 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:10:27,398 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:10:42,999 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:10:44,791 basehttp 157 "GET /statics/img_ciyun/833126B0BBB711EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 166073
+INFO 2021-05-23 19:10:55,368 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:10:56,532 basehttp 157 "GET /statics/img_ciyun/8A93DD76BBB711EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 170494
+INFO 2021-05-23 19:12:15,047 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:12:15,053 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:12:33,081 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:12:33,090 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:12:36,321 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:12:36,326 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:12:39,357 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:12:39,371 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:12:45,853 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:12:47,070 basehttp 157 "GET /statics/img_ciyun/CC663438BBB711EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 170958
+INFO 2021-05-23 19:14:03,452 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:14:03,460 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:14:07,199 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:14:07,215 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:14:11,937 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:14:13,182 basehttp 157 "GET /statics/img_ciyun/FFBBD1E4BBB711EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 162918
+INFO 2021-05-23 19:14:23,663 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:14:23,678 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:14:30,609 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:14:32,034 basehttp 157 "GET /statics/img_ciyun/0AE4E4ACBBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 157678
+INFO 2021-05-23 19:15:04,300 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:15:04,320 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:15:15,934 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:15:15,951 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:15:20,046 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:15:21,411 basehttp 157 "GET /statics/img_ciyun/285AF6CABBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 163418
+INFO 2021-05-23 19:17:31,037 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:17:31,053 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:17:34,917 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:17:34,921 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:17:42,055 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:17:43,086 basehttp 157 "GET /statics/img_ciyun/7CE36EF2BBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 110333
+INFO 2021-05-23 19:17:52,906 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:17:53,950 basehttp 157 "GET /statics/img_ciyun/836F6F46BBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 159172
+INFO 2021-05-23 19:18:06,254 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:18:07,477 basehttp 157 "GET /statics/img_ciyun/8B6688CEBBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 161621
+INFO 2021-05-23 19:18:24,117 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:18:25,557 basehttp 157 "GET /statics/img_ciyun/960D5186BBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 166718
+INFO 2021-05-23 19:18:34,297 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:18:34,313 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:19:19,324 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:19:19,340 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:19:26,423 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:19:26,438 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:19:51,056 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:19:52,354 basehttp 157 "GET /statics/img_ciyun/C9DC697ABBB811EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 163622
+INFO 2021-05-23 19:20:40,128 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:20:40,132 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:21:38,444 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:21:38,459 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:21:43,334 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:21:43,347 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:21:48,519 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:21:49,840 basehttp 157 "GET /statics/img_ciyun/0FDF699ABBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 168526
+INFO 2021-05-23 19:22:01,448 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:22:02,842 basehttp 157 "GET /statics/img_ciyun/1782BAE4BBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 111635
+INFO 2021-05-23 19:22:33,683 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:22:33,698 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:23:14,613 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:23:14,618 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:23:18,248 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:23:18,264 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:23:19,806 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:23:19,811 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:23:22,214 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:23:22,229 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:23:27,176 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:23:28,245 basehttp 157 "GET /statics/img_ciyun/4A961534BBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 111559
+INFO 2021-05-23 19:23:38,532 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:23:39,964 basehttp 157 "GET /statics/img_ciyun/516FE614BBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 168880
+INFO 2021-05-23 19:24:07,537 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:24:08,925 basehttp 157 "GET /statics/img_ciyun/62A870AEBBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 111287
+INFO 2021-05-23 19:25:27,492 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:25:27,508 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:25:40,654 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:25:40,657 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:25:51,633 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:25:51,647 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:27:08,142 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:27:08,155 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:27:43,641 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:27:43,645 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:28:28,590 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:28:29,852 basehttp 157 "GET /statics/img_ciyun/FE41A0C6BBB911EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 111419
+INFO 2021-05-23 19:28:43,416 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:28:44,651 basehttp 157 "GET /statics/img_ciyun/073D9748BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 161781
+INFO 2021-05-23 19:28:51,751 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:28:53,025 basehttp 157 "GET /statics/img_ciyun/0C247BBEBBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 167991
+INFO 2021-05-23 19:29:04,637 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:29:05,703 basehttp 157 "GET /statics/img_ciyun/13D05CB6BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 164319
+INFO 2021-05-23 19:29:13,867 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:29:15,513 basehttp 157 "GET /statics/img_ciyun/194BDB16BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 147715
+INFO 2021-05-23 19:29:30,175 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:29:31,803 basehttp 157 "GET /statics/img_ciyun/2302644ABBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 148655
+INFO 2021-05-23 19:29:56,090 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:29:57,457 basehttp 157 "GET /statics/img_ciyun/326C1A70BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 166419
+INFO 2021-05-23 19:33:28,304 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:33:28,309 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:33:31,989 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:33:32,004 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:33:37,711 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:33:37,716 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:33:43,034 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:33:44,307 basehttp 157 "GET /statics/img_ciyun/B9C434D0BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 166061
+INFO 2021-05-23 19:33:47,252 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:33:48,207 basehttp 157 "GET /statics/img_ciyun/BC4515F8BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 167427
+INFO 2021-05-23 19:34:08,708 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:34:08,713 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:34:15,781 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:34:15,795 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:34:19,120 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:34:19,134 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:34:21,543 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:34:23,275 basehttp 157 "GET /statics/img_ciyun/D0A345CEBBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 109877
+INFO 2021-05-23 19:34:28,677 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:34:29,492 basehttp 157 "GET /statics/img_ciyun/D5055422BBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 160053
+INFO 2021-05-23 19:34:33,354 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:34:34,530 basehttp 157 "GET /statics/img_ciyun/D7CFD95CBBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 159694
+INFO 2021-05-23 19:35:29,770 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:35:29,785 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:35:33,472 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:35:33,488 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:35:38,712 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:35:38,739 basehttp 157 "GET /statics/img_ciyun/FEA23CBEBBBA11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 112607
+INFO 2021-05-23 19:35:46,471 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:35:46,491 basehttp 157 "GET /statics/img_ciyun/0365C37EBBBB11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 157440
+INFO 2021-05-23 19:35:57,389 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:35:57,405 basehttp 157 "GET /statics/img_ciyun/09E21432BBBB11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 159822
+INFO 2021-05-23 19:36:06,114 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:36:06,130 basehttp 157 "GET /statics/img_ciyun/0F072632BBBB11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 168945
+INFO 2021-05-23 19:36:16,608 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:36:16,622 basehttp 157 "GET /statics/img_ciyun/154D7D52BBBB11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 167883
+INFO 2021-05-23 19:36:26,232 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 4388
+INFO 2021-05-23 19:36:26,246 basehttp 157 "GET /statics/img_ciyun/1AF5D6AABBBB11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 108748
+INFO 2021-05-23 19:43:03,832 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:43:03,837 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:43:34,151 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:43:34,157 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:43:38,341 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:43:38,361 basehttp 157 "GET /statics/img_ciyun/1CBF5A78BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 90569
+INFO 2021-05-23 19:44:08,312 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:44:08,327 basehttp 157 "GET /statics/img_ciyun/2E9ED818BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 90839
+INFO 2021-05-23 19:44:15,041 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:44:15,053 basehttp 157 "GET /statics/img_ciyun/32A18A00BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 91052
+INFO 2021-05-23 19:44:50,176 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:44:50,995 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 19:44:59,468 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:44:59,484 basehttp 157 "GET /statics/img_ciyun/4D0A0390BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 89364
+INFO 2021-05-23 19:45:07,132 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:45:08,020 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 19:45:11,879 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:45:11,883 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:45:25,069 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:45:25,093 basehttp 157 "GET /statics/img_ciyun/5C57BAC2BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 83956
+INFO 2021-05-23 19:45:29,436 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:45:30,440 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 19:45:32,542 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:45:32,557 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:45:36,875 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:45:36,899 basehttp 157 "GET /statics/img_ciyun/635B30ECBBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 88530
+INFO 2021-05-23 19:46:11,197 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:11,214 basehttp 157 "GET /statics/img_ciyun/77DC54BABBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 90108
+INFO 2021-05-23 19:46:14,818 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:14,833 basehttp 157 "GET /statics/img_ciyun/7A036EA4BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 86670
+INFO 2021-05-23 19:46:32,302 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:46:32,324 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:46:35,246 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:35,262 basehttp 157 "GET /statics/img_ciyun/862F2E02BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 89011
+INFO 2021-05-23 19:46:37,389 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:37,405 basehttp 157 "GET /statics/img_ciyun/877695C0BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 91956
+INFO 2021-05-23 19:46:38,694 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:38,705 basehttp 157 "GET /statics/img_ciyun/877695C1BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 88353
+INFO 2021-05-23 19:46:40,014 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:40,026 basehttp 157 "GET /statics/img_ciyun/8909BD9ABBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 88387
+INFO 2021-05-23 19:46:41,349 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:46:41,361 basehttp 157 "GET /statics/img_ciyun/8909BD9BBBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 90494
+INFO 2021-05-23 19:46:47,316 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:46:47,332 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:47:57,386 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:47:58,158 autoreload 617 Watching for file changes with StatReloader
+ERROR 2021-05-23 19:48:01,653 log 224 Internal Server Error: /api/ciyun/
+Traceback (most recent call last):
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py", line 585, in post
+    wc.generate_from_frequencies(dict_text)
+  File "/home/yanmu/.virtualenvs/django/lib/python3.8/site-packages/wordcloud/wordcloud.py", line 489, in generate_from_frequencies
+    if random_state.random() < self.prefer_horizontal:
+TypeError: '<' not supported between instances of 'float' and 'str'
+ERROR 2021-05-23 19:48:01,654 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 500 127532
+INFO 2021-05-23 19:48:19,137 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/apps/home/views.py changed, reloading.
+INFO 2021-05-23 19:48:19,877 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-23 19:48:24,546 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:48:24,563 basehttp 157 "GET /statics/img_ciyun/C748ECCABBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 87612
+INFO 2021-05-23 19:48:31,063 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
+INFO 2021-05-23 19:48:31,077 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-23 19:48:39,144 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:48:39,164 basehttp 157 "GET /statics/img_ciyun/D009E1ACBBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 85130
+INFO 2021-05-23 19:48:49,650 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:48:49,667 basehttp 157 "GET /statics/img_ciyun/D65209EABBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 84343
+INFO 2021-05-23 19:49:22,510 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:49:22,526 basehttp 157 "GET /statics/img_ciyun/E9E3E94CBBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 87374
+INFO 2021-05-23 19:49:38,179 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
+INFO 2021-05-23 19:49:38,195 basehttp 157 "GET /statics/img_ciyun/F3397DF4BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 200 88313
+INFO 2021-05-23 19:50:19,106 basehttp 157 "GET /api/download/F3397DF4BBBC11EB9BD9FFAC7F07FF8B.png HTTP/1.1" 301 0
+INFO 2021-05-23 19:50:19,109 basehttp 157 "GET /api/download/F3397DF4BBBC11EB9BD9FFAC7F07FF8B.png/ HTTP/1.1" 200 88313

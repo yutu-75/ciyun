@@ -12,25 +12,25 @@
           <p>
             <span>关于我们</span>
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <span>xx词云</span>
+            <span>聚词云</span>
           </p>
           <p>
             地址：xx市xx地区xx号  邮箱：xx@xx.com
           </p>
           <p>
              © 2017-2020 xxxx
-            <a class="copyright" href="http://beian.miit.gov.cn" target="_blank" >渝ICP备19017372号-2</a>
+            <a class="copyright" href="http://beian.miit.gov.cn" target="_blank" >渝ICP备xxxxxxxx号-x</a>
           </p>
           <p>
             <a class="report-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102002019&amp;token=1ee3034d-ba3a-4cc3-89d4-89875e2dd0b1">
               <img class="report-img" src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" style="float:left" >
-              渝公网安备 11010102002020号
+              渝公网安备 xxxxxxxxxxx号
             </a>
           </p>
         </div>
 
       </div>
-        <img src="@/assets/code.png" alt="" class="code">
+        <img src="@/assets/lixinlogo.png" alt="" class="code">
       </div>
     </div>
 </template>

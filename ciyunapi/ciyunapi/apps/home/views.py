@@ -251,7 +251,7 @@ class UpdateView(APIView):
             b_color = None
         # print('qwq')
         if 'prefer_horizontal' in d_keys:
-            prefer_horizontal = 0.10
+            prefer_horizontal = float(data_dict['prefer_horizontal'])
         else:
             prefer_horizontal = 0.9
 
@@ -489,7 +489,7 @@ class CiyunView(APIView):
             b_color = None
             # print('qwq')
         if 'prefer_horizontal' in d_keys:
-            prefer_horizontal = 0.10
+            prefer_horizontal = float(data_dict['prefer_horizontal'])
         else:
             prefer_horizontal = 0.9
 

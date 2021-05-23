@@ -91,7 +91,7 @@
                           </el-form-item>
 
                           <el-form-item label="边框颜色:">
-                            <el-radio v-model="radio1" label="1">透明</el-radio>
+                            <el-radio v-model="radio1" label="1">默认</el-radio>
                             <el-radio v-model="radio1" label="2">自定义
 
                               <div class="block">
@@ -103,7 +103,7 @@
 
                           <hr style="border: 1px dashed   #d2cfd4;"/>
 
-                          <p>词性选择</p>
+                          <p>词性选择 开发中</p>
                           <el-form-item label="词性筛选:">
                             <el-select v-model="PartOfSpeech.attribute" style="width: 100px;height: 30px;">
                               <el-option label="默认" value="Default"></el-option>
@@ -115,9 +115,9 @@
 
                           <p>文字方向</p>
                           <el-form-item label="方向设置:">
-                            <el-radio v-model="radio2" label="0.9">横竖混排</el-radio>
-                            <el-radio v-model="radio2" label="2">仅横向</el-radio>
-                            <el-radio v-model="radio2" label="0.1">仅纵向</el-radio>
+                            <el-radio v-model="radio2" label="0.9">标准横竖</el-radio>
+                            <el-radio v-model="radio2" label="2">横向占比大</el-radio>
+                            <el-radio v-model="radio2" label="0.1">纵向占比大</el-radio>
                           </el-form-item>
 
                           <hr style="border: 1px dashed   #d2cfd4;;"/>
@@ -144,20 +144,20 @@
                             </el-radio>
 
                             <br>
-                            <el-radio v-model="radio4" label="3">预设组合1
+                            <el-radio v-model="radio4" label="3">预设组合1  开发中
                               <div class="block">
                                 <el-color-picker v-model="color41" style="display: inline;"></el-color-picker>
                               </div>
                             </el-radio>
 
                             <br/>
-                            <el-radio v-model="radio4" label="4">预设组合2</el-radio>
+                            <el-radio v-model="radio4" label="4">预设组合2  开发中</el-radio>
                             <div class="block" v-model="color42"
                                  style="background-image: linear-gradient(to right, #f5f5f5 , #aeaeae);width: 56px;">
                               <el-color-picker style="display: inline;"></el-color-picker>
                             </div>
                             <br/>
-                            <el-radio v-model="radio4" label="5">预设组合3</el-radio>
+                            <el-radio v-model="radio4" label="5">预设组合3  开发中</el-radio>
                             <div class="block" v-model="color43"
                                  style="background-image: linear-gradient(to right, #f5f5f5 , #aeaeae);width: 56px;">
                               <el-color-picker style="display: inline;"></el-color-picker>
@@ -177,16 +177,16 @@
                               <el-option label="华文行楷" value="STXINGKA.TTF"></el-option>
                               <el-option label="华文琥珀" value="STHUPO.TTF"></el-option>
                             </el-select>
-                            <el-checkbox v-model="checked1" style="margin-left: 3%;">加粗</el-checkbox>
+<!--                            <el-checkbox v-model="checked1" style="margin-left: 3%;">加粗</el-checkbox>-->
 
                           </el-form-item>
                           <el-form-item label="字体大小:">
-                            <el-checkbox v-model="radio5" label="1" style="border-radius: 50%;">自动</el-checkbox>
+                            <el-checkbox v-model="radio5" label="1" style="border-radius: 50%;">自动 开发中</el-checkbox>
                           </el-form-item>
 
                           <hr style="border: 1px dashed   #d2cfd4;"/>
 
-                          <p>自定义设置</p>
+                          <p>自定义设置  开发中</p>
                           <el-table
                             :data="tableData"
                             border
@@ -485,7 +485,7 @@ export default {
 
       num8: 1,        // 边框大小
       color1: '#BEBEBE',  // 背景颜色
-      color3: "#BEBEBE",  // 边框颜色
+      color3: '#BEBEBE',  // 边框颜色
       color4: '#BEBEBE',
       color41:'#BEBEBE',
       color42: '#BEBEBE',
@@ -553,10 +553,7 @@ export default {
         desc: '',
       },
       ruleForm: {
-        desc: "立信(重庆)市场研究股份有限公司于2001年3月成立，是中国西部地区规模最大的市场研究机构；中国信息协会市场研究分会副会长单位、常务理事单位。2005年1月荣获国家统计局民间涉外调查管理处颁发的《涉外调查许可证》，具备从事涉外调查的资格。2012年4月成功通过ISO20252：2006第三方认证审核，2015年6月再次审核通过，是中国西部首家通过国际标准认证的公司。\n" +
-          "   立信公司自成立以来，始终坚持专业、规范的项目执行为重点发展方向，分公司遍布贵州、甘肃、青海、宁夏、云南、四川等多个省份。通过多年的发展，立信公司拥有一流的硬件设施，最优秀的督导和项目管理人员，完善的项目管理体系，强大的管理平台和不断创新的调研技术。目前立信公司全职人员已达200人以上，65个城市实地执行能力，50万人次以上的年访问量。多年来，在完善执行网络基础上持续发展产品链，已逐步形成立信的核心竞争力。\n" +
-          "   2011年，成立西部地区最大的呼叫中心，拥有坐席168个。2013年，立信联合全国市场研究知名企业共同打造中国最大的网络调查平台——调研吧，为行业提供公共的数据采集平台。\n" +
-          "   目前，立信已成为中国唯一 一家全渠道（传统、CATI、网络）数据采集公司。立信人将通过不懈努力，立志打造全国最大的数据采集公司，成为中国数据采集第一品牌。",
+        desc: "立信（重庆）数据科技股份有限公司成立于2001年3月，是一家积淀20年的专业市场研究公司，2017年3月，立信数据在全国中小企业股份转让系统（新三板）挂牌，股票代码（立信数据871394）,目前立信数据已完成A轮融资，未来致力于成为中国领先的数据服务提供商。立信数据是国家高新技术企业、国家工信部两化融合管理体系认证企业、中新（重庆）数据通信创新联盟发起单位、西南数据治理联盟发起单位、中国市场信息调查业协会副会长单位、中国信息协会市场研究分会副会长单位、重庆市拟上市重点培育企业、重庆市“专精特新”企业、重庆市重点网信企业、重庆市优秀民营企业、陇商十大优秀企业、重庆市新锐渝商、AAA级评估企业、AAA信用企业。\n",
       },
 
       // error 模块
@@ -735,7 +732,22 @@ export default {
             if (this.checked == false) {
               this.color3 = '0';
               this.num8 = '0';
+            }else {
+                            if (this.radio == '1') {
+                               this.$message({
+              showClose: true,
+              message: '有边框的时候背景不能是透明的呢！',
+              type: 'success'
+            });
+
+              }
+              this.color1 = '#FFFFFF'
+              this.radio = '2'
+              this.radio1 = '2'
+
+
             }
+
             if (this.radio4 === '1') {
               this.color4 = '0'
 
@@ -762,6 +774,7 @@ export default {
 
 
                 this.ciyun_img = res.data.data.photo_url
+
                 this.img_url = this.$settings.Host + '/statics/img_ciyun/' + res.data.data.photo_url
                 // alert(this.img_url)
                 this.loading = false
@@ -818,6 +831,20 @@ export default {
             if (this.checked == false) {
               this.color3 = '0';
               this.num8 = '0';
+            }else {
+                            if (this.radio == '1') {
+                               this.$message({
+              showClose: true,
+              message: '有边框的时候背景不能是透明的呢！',
+              type: 'success'
+            });
+
+              }
+              this.color1 = '#FFFFFF'
+              this.radio = '2'
+              this.radio1 = '2'
+
+
             }
             if (this.radio4 === '1') {
               this.color4 = '0'
@@ -902,7 +929,7 @@ export default {
 
 
 .qwq p {
-  width: 100px;
+  width: 200px;
   height: 1.5625rem;
   padding-left: 3%;
   border-style: solid;

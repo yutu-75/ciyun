@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     # 'home.apps.HomeConfig',
     'home',
 ]
-CORS_ALLOW_CREDENTIALS = False
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 MIDDLEWARE = [
 
     'corsheaders.middleware.CorsMiddleware',
@@ -73,7 +74,7 @@ MIDDLEWARE = [
 #     #'www.luffycity.cn:8080', #如果这样写不行的话，就加上协议(http://www.luffycity.cn:8080，因为不同的corsheaders版本可能有不同的要求)
 #     'http://www.luffycity.cn:8080'
 # )
-CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
+CORS_ALLOW_CREDENTIALS = True  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
 
 ROOT_URLCONF = 'ciyunapi.urls'
 
@@ -116,11 +117,7 @@ TIME_ZONE = 'Asia/Shanghai'
 
 # TIME_ZONE = 'UTC'
 
-USE_I18N = True
 
-USE_L10N = True
-
-USE_TZ = True
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -131,8 +128,8 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "HOST": "127.0.0.1",
         "PORT": 3306,
-        "USER": "ciyun_user",
-        "PASSWORD": "ciyun",
+        "USER": "root",
+        "PASSWORD": "123456",
         "NAME": "ciyun",
     }
 }
