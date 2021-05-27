@@ -242,7 +242,7 @@ LOGGING = {
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 # 访问静态文件的url地址前缀
-STATIC_URL = '/statics/'
+STATIC_URL = '/static/'
 # 设置django的静态文件目录
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")

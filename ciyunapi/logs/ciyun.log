@@ -16400,3 +16400,4 @@ INFO 2021-05-26 13:42:26,014 basehttp 157 "POST /api/ciyun/ HTTP/1.1" 200 2594
 INFO 2021-05-26 13:42:26,036 basehttp 157 "GET /statics/img_ciyun/26A5D6C2BDE511EBB2F48D5BB0573CF9.png HTTP/1.1" 200 21478
 INFO 2021-05-26 13:42:54,018 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
 INFO 2021-05-26 13:42:54,024 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
+INFO 2021-05-27 09:43:44,187 autoreload 617 Watching for file changes with StatReloader
