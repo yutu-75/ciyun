@@ -35,6 +35,10 @@ CORS_ORIGIN_WHITELIST = (
     #'www.luffycity.cn:8080', #如果这样写不行的话，就加上协议(http://www.luffycity.cn:8080，因为不同的corsheaders版本可能有不同的要求)
     'http://0.0.0.0:8001',
 'http://127.0.0.1:8001',
+'http://119.3.204.138:8001',
+'http://119.3.204.138:8000',
+
+
 
 )
 # Application definition
@@ -126,8 +130,8 @@ TIME_ZONE = 'Asia/Shanghai'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "127.0.0.1",
-        "PORT": 3306,
+        "HOST": "119.3.204.138",
+        "PORT": 3307,
         "USER": "root",
         "PASSWORD": "123456",
         "NAME": "ciyun",

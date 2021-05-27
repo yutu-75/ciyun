@@ -394,7 +394,7 @@
                         <div class="picture_suo_t" style="display: block;height: 330px;">
                           <div class="picture_suo_img" :class="{'suo-img': sty==index}" @click="onImg(index,value)"
                                v-for="(value,index) in img_list" :key="index">
-                            <img class="lazy" :src="'http://119.3.204.138:8000/statics/img_template/'+value">
+                            <img class="lazy" :src="'http://119.3.204.138:8000/static/img_template/'+value">
 
                           </div>
 
@@ -464,7 +464,7 @@
     </div>
 
 
-    <Footer></Footer>
+<!--    <Footer></Footer>-->
 
 
   </div>
@@ -564,7 +564,7 @@ export default {
       user_img_name: '',
 
       // 默认加载图片
-      img_url: `${this.$settings.Host}` + '/statics/img_ciyun/225A0D5CBD1A11EBA7970242AC110002.png',
+      img_url: `${this.$settings.Host}` + '/static/img_ciyun/225A0D5CBD1A11EBA7970242AC110002.png',
 
       // 模板图片的索引
       sty: 'None',
@@ -800,7 +800,7 @@ export default {
 
                 this.ciyun_img = res.data.data.photo_url
 
-                this.img_url = this.$settings.Host + '/statics/img_ciyun/' + res.data.data.photo_url
+                this.img_url = this.$settings.Host + '/static/img_ciyun/' + res.data.data.photo_url
                 // alert(this.img_url)
                 this.loading = false
                 this.ruleForm3.desc = res.data.data.str_a
@@ -896,7 +896,7 @@ export default {
 
             })
               .then((res) => {
-                this.img_url = this.$settings.Host + '/statics/img_ciyun/' + res.data.data.photo_url
+                this.img_url = this.$settings.Host + '/static/img_ciyun/' + res.data.data.photo_url
                 this.ciyun_img = res.data.data.photo_url
                 // this.img_url = this.$settings.Host + '/' + res.data.data.photo_url
                 // alert(this.img_url)

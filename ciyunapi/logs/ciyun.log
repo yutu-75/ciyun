@@ -16401,3 +16401,10 @@ INFO 2021-05-26 13:42:26,036 basehttp 157 "GET /statics/img_ciyun/26A5D6C2BDE511
 INFO 2021-05-26 13:42:54,018 basehttp 157 "POST /api/template/ HTTP/1.1" 200 205
 INFO 2021-05-26 13:42:54,024 basehttp 157 "GET /api/home/nav/ HTTP/1.1" 200 162
 INFO 2021-05-27 09:43:44,187 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-05-27 14:07:05,942 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-05-27 14:07:09,468 log 224 Not Found: /
+WARNING 2021-05-27 14:07:09,468 basehttp 157 "GET / HTTP/1.1" 404 2256
+WARNING 2021-05-27 14:07:09,550 log 224 Not Found: /favicon.ico
+WARNING 2021-05-27 14:07:09,550 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2307
+INFO 2021-05-27 14:10:06,720 autoreload 240 /home/yanmu/桌面/ciyun/ciyunapi/ciyunapi/settings/dev.py changed, reloading.
+INFO 2021-05-27 14:10:07,345 autoreload 617 Watching for file changes with StatReloader
