@@ -138,7 +138,7 @@ class UploadView(APIView):
         }
         return Response(data_json)
 
-        return Response('ok')
+        # return Response('ok')
 
 
 class TemplateView(APIView):
@@ -198,6 +198,9 @@ class UpdateView(APIView):
             'img_name',
             'byte_color',
             'user_img_name',
+            'min_font_size',
+            'max_font_size',
+            'max_words',
         ]
 
         # 接收的参数名
@@ -302,6 +305,22 @@ class UpdateView(APIView):
             except:
                 img_name = r"./ciyunapi/static/img_template/{}".format('11.png')
 
+        # 字体大小选择范围判断
+        if 'min_font_size' in d_keys:
+            min_font_size = data_dict['min_font_size']
+        else:
+            min_font_size = 4
+        if 'max_font_size' in d_keys:
+            max_font_size = data_dict['max_font_size']
+        else:
+            max_font_size = 80
+
+        # 输出最大字体次数
+        if 'max_words' in d_keys:
+            max_words = data_dict['max_words']
+        else:
+            max_words = 1000
+
         alice_mask = np.array(Image.open(img_name))
         # alice_mask = imread(img_name)
 
@@ -316,12 +335,14 @@ class UpdateView(APIView):
             background_color=b_color,
             prefer_horizontal=prefer_horizontal,
             font_path=font_w,
-            max_words=1000,
+            max_words=max_words,
             mask=alice_mask,
             contour_width=contour_width,
             margin=margin,
             contour_color=contour_color,
             mode=mode,
+            max_font_size=max_font_size,
+            min_font_size=min_font_size,
             # font_step=10,
         )
         # generate word cloud
@@ -416,6 +437,9 @@ class CiyunView(APIView):
             'img_name',
             'byte_color',
             'user_img_name',
+            'min_font_size',
+            'max_font_size',
+            'max_words',
         ]
 
         # 接收的参数名
@@ -538,6 +562,21 @@ class CiyunView(APIView):
             except:
                 img_name = r"./ciyunapi/static/img_template/{}".format('11.png')
 
+        # 字体大小选择范围判断
+        if 'min_font_size' in d_keys:
+            min_font_size = data_dict['min_font_size']
+        else:
+            min_font_size = 4
+        if 'max_font_size' in d_keys:
+            max_font_size = data_dict['max_font_size']
+        else:
+            max_font_size = 80
+        # 输出最大字体次数
+        if 'max_words' in d_keys:
+            max_words = data_dict['max_words']
+        else:
+            max_words = 1000
+
         alice_mask = np.array(Image.open(img_name))
         # alice_mask = imread(img_name)
 
@@ -566,7 +605,7 @@ class CiyunView(APIView):
             background_color=b_color,
             prefer_horizontal=prefer_horizontal,
             font_path=font_w,
-            max_words=1000,
+            max_words=max_words,
             mask=alice_mask,
             contour_width=contour_width,
             margin=margin,
@@ -575,7 +614,8 @@ class CiyunView(APIView):
             relative_scaling=0,
             height=800,
             width=800,
-            max_font_size=80,
+            max_font_size=max_font_size,
+            min_font_size=min_font_size,
 
 
             # font_step=10,
@@ -699,7 +739,7 @@ class NavView(ListAPIView):
 
 class BottomView(ListAPIView):
     """
-    导航栏api
+    底部导航栏api
     """
     queryset = models.Nav.objects.filter(is_deleted=False, is_show=True, position=1)[0:contains.NAV_TOP_LENGTH]
     serializer_class = BottomModelSerializer

@@ -35,13 +35,14 @@
                                    class="demo-ruleForm">
 
                             <el-form-item label-width="0px" prop="desc">
-                              <el-input type="textarea" :autosize="{ minRows: 20, maxRows: 25}" placeholder="仅供展示分词 以及分词词性！！"
+                              <el-input type="textarea" :autosize="{ minRows: 20, maxRows: 25}"
+                                        placeholder="仅供展示分词 以及分词词性！！"
                                         v-model="ruleForm2.desc">
                               </el-input>
                             </el-form-item>
                             <el-form-item>
-<!--                              <el-button type="primary" @click="submitForm('ruleForm')">生成词云</el-button>-->
-<!--                              <el-button @click="resetForm('ruleForm')">重置</el-button>-->
+                              <!--                              <el-button type="primary" @click="submitForm('ruleForm')">生成词云</el-button>-->
+                              <!--                              <el-button @click="resetForm('ruleForm')">重置</el-button>-->
                             </el-form-item>
                           </el-form>
                         </el-tab-pane>
@@ -144,20 +145,20 @@
                             </el-radio>
 
                             <br>
-                            <el-radio v-model="radio4" label="3">预设组合1  开发中
+                            <el-radio v-model="radio4" label="3">预设组合1 开发中
                               <div class="block">
                                 <el-color-picker v-model="color41" style="display: inline;"></el-color-picker>
                               </div>
                             </el-radio>
 
                             <br/>
-                            <el-radio v-model="radio4" label="4">预设组合2  开发中</el-radio>
+                            <el-radio v-model="radio4" label="4">预设组合2 开发中</el-radio>
                             <div class="block" v-model="color42"
                                  style="background-image: linear-gradient(to right, #f5f5f5 , #aeaeae);width: 56px;">
                               <el-color-picker style="display: inline;"></el-color-picker>
                             </div>
                             <br/>
-                            <el-radio v-model="radio4" label="5">预设组合3  开发中</el-radio>
+                            <el-radio v-model="radio4" label="5">预设组合3 开发中</el-radio>
                             <div class="block" v-model="color43"
                                  style="background-image: linear-gradient(to right, #f5f5f5 , #aeaeae);width: 56px;">
                               <el-color-picker style="display: inline;"></el-color-picker>
@@ -177,16 +178,38 @@
                               <el-option label="华文行楷" value="STXINGKA.TTF"></el-option>
                               <el-option label="华文琥珀" value="STHUPO.TTF"></el-option>
                             </el-select>
-<!--                            <el-checkbox v-model="checked1" style="margin-left: 3%;">加粗</el-checkbox>-->
+                            <!--                            <el-checkbox v-model="checked1" style="margin-left: 3%;">加粗</el-checkbox>-->
 
                           </el-form-item>
-                          <el-form-item label="字体大小:">
-                            <el-checkbox v-model="radio5" label="1" style="border-radius: 50%;">自动 开发中</el-checkbox>
+                          <el-form-item label="字体大小范围选择:">
+                            <template>
+                              <br/>
+
+                              <div class="block" style="width: 60%">
+                                <el-slider
+
+                                  v-model="value2"
+                                  range
+                                  show-stops
+                                  :min="4"
+                                  :max="200">
+                                </el-slider>
+
+                              </div>
+                            </template>
+                          </el-form-item>
+                          <hr style="border: 1px dashed   #d2cfd4;"/>
+                         <p>输出词数</p>
+                              <span style="font-size: 13px;font-family: 微软雅黑;color: #606266;">
+                                输出的词数在以下选择范围内且与字体大小有关，最小字体越大输出词数越少！</span>
+                          <el-form-item label="输出词数:">
+                            <el-input-number v-model="p_num"  size="small" :step="2" step-strictly></el-input-number>
+
                           </el-form-item>
 
                           <hr style="border: 1px dashed   #d2cfd4;"/>
 
-                          <p>自定义设置  开发中</p>
+                          <p>自定义设置 开发中</p>
                           <el-table
                             :data="tableData"
                             border
@@ -217,8 +240,10 @@
                             </el-table-column>
                           </el-table>
                           <el-form-item>
-                            <el-button style="margin: 10px" type="primary" @click="submitForm('ruleForm')">以文本生成词云</el-button>
-                            <el-button style="margin: 10px" type="primary" @click="submitForm3('ruleForm3')">以词数生成词云</el-button>
+                            <el-button style="margin: 10px" type="primary" @click="submitForm('ruleForm')">以文本生成词云
+                            </el-button>
+                            <el-button style="margin: 10px" type="primary" @click="submitForm3('ruleForm3')">以词数生成词云
+                            </el-button>
 
                             <!--                          <el-button-->
 
@@ -407,25 +432,25 @@
                       </div>
                     </template>
 
-<template >
-                    <div class="photo">
+                    <template>
+                      <div class="photo">
 
 
-                      <div
-                        v-loading="loading"
-                        element-loading-text="拼命加载中"
-                        element-loading-spinner="el-icon-loading"
-                        element-loading-background="rgba(0, 0, 0, 0.8)"
-                        :data="img_url"
-                        style="width: 100%;height: 100%;">
-                        <img style="height: 600px;width: 600px;" :src=img_url alt="">
+                        <div
+                          v-loading="loading"
+                          element-loading-text="拼命加载中"
+                          element-loading-spinner="el-icon-loading"
+                          element-loading-background="rgba(0, 0, 0, 0.8)"
+                          :data="img_url"
+                          style="width: 100%;height: 100%;">
+                          <img style="height: 600px;width: 600px;" :src=img_url alt="">
+                        </div>
+
+                        <!--                      <img  v-if="img_jd" style=" padding: 80px; height: 225px;width: 225px;"-->
+                        <!--                           src='@/assets/1495.gif'-->
+
                       </div>
-
-                      <!--                      <img  v-if="img_jd" style=" padding: 80px; height: 225px;width: 225px;"-->
-                      <!--                           src='@/assets/1495.gif'-->
-
-                    </div>
-</template>
+                    </template>
                   </el-card>
 
 
@@ -459,6 +484,9 @@ export default {
 
   data() {
     return {
+      p_num: 1000,
+
+      value2: [4, 80],          //字体大小
 
       checked1: '',      // 字体加粗
       "font": [
@@ -487,7 +515,7 @@ export default {
       color1: '#BEBEBE',  // 背景颜色
       color3: '#BEBEBE',  // 边框颜色
       color4: '#BEBEBE',
-      color41:'#BEBEBE',
+      color41: '#BEBEBE',
       color42: '#BEBEBE',
       color43: '#BEBEBE',
       color2: "linear-gradient(#e66465, #9198e5)",
@@ -536,7 +564,7 @@ export default {
       user_img_name: '',
 
       // 默认加载图片
-      img_url: `${this.$settings.Host}`+'/statics/img_ciyun/3C5961A4B6C011EB80695F79F28AFEE0.png',
+      img_url: `${this.$settings.Host}` + '/statics/img_ciyun/225A0D5CBD1A11EBA7970242AC110002.png',
 
       // 模板图片的索引
       sty: 'None',
@@ -732,28 +760,21 @@ export default {
             if (this.checked == false) {
               this.color3 = '0';
               this.num8 = '0';
-            }else {
-                            if (this.radio == '1') {
-                               this.$message({
-              showClose: true,
-              message: '有边框的时候背景不能是透明的呢！',
-              type: 'success'
-            });
-
+            } else {
+              if (this.radio == '1') {
+                this.$message({
+                  showClose: true,
+                  message: '有边框的时候背景不能是透明的呢！',
+                  type: 'success'
+                });
               }
               this.color1 = '#FFFFFF'
               this.radio = '2'
               this.radio1 = '2'
-
-
             }
-
             if (this.radio4 === '1') {
               this.color4 = '0'
-
             }
-
-
             this.loading = true
 
             // 发送axios请求 生成图片链接
@@ -768,6 +789,10 @@ export default {
               "user_img_name": this.user_img_name,
               "prefer_horizontal": this.radio2,
               "byte_color": this.color4,
+              "min_font_size": this.value2[0],
+              "max_font_size": this.value2[1],
+              'max_words': this.p_num
+
 
             })
               .then((res) => {
@@ -831,13 +856,13 @@ export default {
             if (this.checked == false) {
               this.color3 = '0';
               this.num8 = '0';
-            }else {
-                            if (this.radio == '1') {
-                               this.$message({
-              showClose: true,
-              message: '有边框的时候背景不能是透明的呢！',
-              type: 'success'
-            });
+            } else {
+              if (this.radio == '1') {
+                this.$message({
+                  showClose: true,
+                  message: '有边框的时候背景不能是透明的呢！',
+                  type: 'success'
+                });
 
               }
               this.color1 = '#FFFFFF'
@@ -865,6 +890,9 @@ export default {
               "user_img_name": this.user_img_name,
               "prefer_horizontal": this.radio2,
               "byte_color": this.color4,
+              "min_font_size": this.value2[0],
+              "max_font_size": this.value2[1],
+              'max_words': this.p_num,
 
             })
               .then((res) => {
@@ -897,11 +925,11 @@ export default {
 
         } else {
           console.log('error submit!!');
-                  this.$message({
-              showClose: true,
-              message: '频数统计文本不能为空呢！',
-              type: 'error'
-            });
+          this.$message({
+            showClose: true,
+            message: '频数统计文本不能为空呢！',
+            type: 'error'
+          });
           return false;
         }
       });
@@ -926,7 +954,38 @@ export default {
 </script>
 
 <style scoped>
+.el-slider >>> .el-slider__runway {
+  width: 80%;
 
+}
+
+
+.el-color-picker >>> .el-color-picker__trigger {
+  -webkit-box-sizing: border-box;
+  height: 28px;
+  width: 64px;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 0;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  border: none;
+}
+
+.el-color-picker >>> .el-color-picker__icon {
+  display: none;
+}
+
+.el-color-picker >>> .el-color-picker__color {
+  border: 0px solid #dddbdb;
+  border-radius: 15%;
+
+}
+
+.el-color-picker >>> .el-color-picker__color-inner {
+  border-radius: 10%;
+}
 
 .qwq p {
   width: 200px;
@@ -938,7 +997,6 @@ export default {
   border-right-color: transparent;
   border-bottom-color: transparent;
 }
-
 
 
 .block {
@@ -1099,10 +1157,10 @@ export default {
 
 .photo {
   /*height: 600px;*/
-  width: 78%;
+  /*width: 78%;*/
   /*margin-bottom: 5px;*/
-  background-color: #e5e9f2;
-  margin-left: 11%;
+  /*background-color: #e5e9f2;*/
+  /*margin-left: 6%;*/
   text-align: center;
   align-items: center;
 
