@@ -130,8 +130,8 @@ TIME_ZONE = 'Asia/Shanghai'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "119.3.204.138",
-        "PORT": 3307,
+        "HOST": "127.0.0.1",
+        "PORT": 3306,
         "USER": "root",
         "PASSWORD": "123456",
         "NAME": "ciyun",
