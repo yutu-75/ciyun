@@ -61,7 +61,7 @@
                             </el-form-item>
                             <el-form-item>
                               <el-button type="primary" @click="submitForm3('ruleForm3')">生成词云</el-button>
-                              <el-button @click="resetForm('ruleForm3')">重置</el-button>
+                              <el-button @click="resetForm3('ruleForm3')">重置</el-button>
                             </el-form-item>
                           </el-form>
 
@@ -746,6 +746,10 @@ export default {
         if (valid) {
 
           if (this.ruleForm.desc.length < 1) {
+
+
+
+
             this.$message({
               showClose: true,
               message: '文本不能为空呢！',
@@ -826,7 +830,13 @@ export default {
           }
 
         } else {
-          console.log('error submit!!');
+
+          this.$message({
+            showClose: true,
+            message: '文本编辑文本不能为空呢！',
+            type: 'error'
+          });
+
           return false;
         }
       });
@@ -838,7 +848,7 @@ export default {
         if (valid) {
 
           if (this.ruleForm3.desc.length < 1) {
-            alert('qwq')
+
 
             this.$message({
               showClose: true,
@@ -938,6 +948,9 @@ export default {
     // 内容重置
     resetForm(formName) {
       this.ruleForm.desc = '';
+    },
+        resetForm3(formName) {
+      this.ruleForm3.desc = '';
     }
 
   },

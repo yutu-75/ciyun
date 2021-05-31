@@ -5,13 +5,14 @@
       <el-container>
         <el-header height="80px" class="header-cont">
           <el-row>
-            <el-col class="logo" :span="3">
+            <el-col  class="logo" :span="6"  :offset="2">
               <a href="/">
-                                <img src="@/assets/lixinlogo.png" style="width: 100px;height: 100px" alt="">
+                                <img src="@/assets/login.png" style="width: 130px;height: 70px;text-align: center" alt="">
 
               </a>
             </el-col>
-            <el-col class="nav" :span="10">
+
+            <el-col class="nav" :span="10" >
               <el-row>
                 <el-col :span="3" v-for="(value,index) in data_list" :key="index">
                   <a :href="value.link" class="active" v-if="value.is_site">{{ value.title }}</a>
@@ -21,7 +22,7 @@
               </el-row>
 
             </el-col>
-            <el-col :span="11" class="header-right-box">
+            <el-col :span="7" :offset="2" class="header-right-box">
               <div class="search">
                 <input type="text" id="Input" placeholder="请输入想搜索的内容" style="" @blur="inputShowHandler" ref="Input"
                        v-show="!s_status">

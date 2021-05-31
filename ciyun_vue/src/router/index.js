@@ -16,8 +16,8 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'Home',  //路由别名  url('',name='')
-      component: Home,
+      name: 'WordCloud',  //路由别名  url('',name='')
+      component: WordCloud,
     },
     {
       path: '/ciyun',
